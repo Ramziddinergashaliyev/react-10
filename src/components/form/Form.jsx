@@ -24,7 +24,7 @@ function Form() {
         console.log(res);
         toast.success("Malumot to'gri kiritildi");
         localStorage.setItem(`x-auth-token`, res.data.token);
-        navigate("/admin");
+        navigate("/admin/products");
       })
       .catch((err) => {
         toast.error("Malumot noto'g'ri kiritildi");
