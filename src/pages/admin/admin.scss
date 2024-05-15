@@ -1,0 +1,7 @@
+.admin {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  &__icon {
+    width: 40px;
+  }
+}
